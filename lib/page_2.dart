@@ -3,9 +3,11 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 
 class LandingPage extends StatelessWidget {
+  const LandingPage({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       body: Center(
         child: Text(
           'Hello!',
